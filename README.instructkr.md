@@ -8,6 +8,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/clawd-hero.jpeg" alt="OpenClaw promotion visual" width="320" />
+</p>
+
+<p align="center">
   <a href="./README_zh.md">中文 README</a> ·
   <a href="./SPEC_OPENCLOW_IMPROVEMENTS_FROM_CLAW_CODE_ANALYSIS_V2_zh.md">中文规范</a> ·
   <a href="./CONTRIBUTING.md">Contributing</a> ·
@@ -40,14 +44,18 @@ This work combines Claude Code features, functionality, and architectural patter
 - [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md)
 - [GOOD_FIRST_ISSUES_zh.md](./GOOD_FIRST_ISSUES_zh.md)
 
---- ---------------------------------------------------------- ----
+---
 
-# Claude Features integrated into OpenClaw
+# Rewriting Project Claw Code
 
+<p align="center">
+  <strong>Better Harness Tools, not merely storing the archive of leaked Claude Code</strong>
+</p>
 
 > [!IMPORTANT]
 > **Rust port is now in progress** on the [`dev/rust`](https://github.com/instructkr/claw-code/tree/dev/rust) branch and is expected to be merged into main today. The Rust implementation aims to deliver a faster, memory-safe harness runtime. Stay tuned — this will be the definitive version of the project.
 
+> If you find this work useful, consider [sponsoring @instructkr on GitHub](https://github.com/sponsors/instructkr) to support continued open-source harness engineering research.
 
 ## Setup
 
@@ -88,6 +96,13 @@ If you want a scoped entry point, start with [GOOD_FIRST_ISSUES.md](./GOOD_FIRST
 
 ---
 
+## Backstory
+
+At 4 AM on March 31, 2026, I woke up to my phone blowing up with notifications. The Claude Code source had been exposed, and the entire dev community was in a frenzy. My girlfriend in Korea was genuinely worried I might face legal action from Anthropic just for having the code on my machine — so I did what any engineer would do under pressure: I sat down, ported the core features to Python from scratch, and pushed it before the sun came up.
+
+The whole thing was orchestrated end-to-end using [oh-my-codex (OmX)](https://github.com/Yeachan-Heo/oh-my-codex) by [@bellman_ych](https://x.com/bellman_ych) — a workflow layer built on top of OpenAI's Codex ([@OpenAIDevs](https://x.com/OpenAIDevs)). I used `$team` mode for parallel code review and `$ralph` mode for persistent execution loops with architect-level verification. The entire porting session — from reading the original harness structure to producing a working Python tree with tests — was driven through OmX orchestration.
+
+The result is a clean-room Python rewrite that captures the architectural patterns of Claude Code's agent harness without copying any proprietary source. I'm now actively collaborating with [@bellman_ych](https://x.com/bellman_ych) — the creator of OmX himself — to push this further. The basic Python foundation is already in place and functional, but we're just getting started. **Stay tuned — a much more capable version is on the way.**
 
 https://github.com/instructkr/claw-code
 
