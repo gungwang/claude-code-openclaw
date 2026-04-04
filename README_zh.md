@@ -8,10 +8,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/clawd-hero.jpeg" alt="OpenClaw 宣传视觉图" width="320" />
-</p>
-
-<p align="center">
   <a href="./README.md">English README</a> ·
   <a href="./SPEC_OPENCLOW_IMPROVEMENTS_FROM_CLAW_CODE_ANALYSIS_V2_zh.md">中文规范</a> ·
   <a href="./CONTRIBUTING_zh.md">贡献指南</a> ·

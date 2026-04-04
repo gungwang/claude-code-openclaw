@@ -264,16 +264,16 @@ These four deliver high operational value without destabilizing existing loop/ru
 
 ## 6) Risks and Mitigations
 
-- **Risk:** Added metadata complexity burdens maintainers.  
+- **Risk:** Added metadata complexity burdens maintainers.
   **Mitigation:** auto-generate most fields where possible; require minimal mandatory fields.
 
-- **Risk:** Explainability data leaks internals by default.  
+- **Risk:** Explainability data leaks internals by default.
   **Mitigation:** gate detailed traces behind debug/verbose and redact sensitive values.
 
-- **Risk:** Maturity labels become stale.  
+- **Risk:** Maturity labels become stale.
   **Mitigation:** tie labels to CI checks and contract-test pass criteria.
 
-- **Risk:** Policy reason codes diverge from actual enforcement path.  
+- **Risk:** Policy reason codes diverge from actual enforcement path.
   **Mitigation:** reason emitted only from enforcement engine, not wrappers.
 
 ---
