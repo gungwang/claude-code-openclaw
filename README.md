@@ -15,7 +15,7 @@
 
 ---
 
-## Purpose: Claude-code => OpenClaw
+# Claude Features integrated into OpenClaw
 
 This repository serves as a bridge between Claude Code's architectural insights and OpenClaw's agent platform. By analyzing Claude Code's tool/command inventory, agent harness patterns, and runtime structures, we aim to enhance OpenClaw with:
 
@@ -44,7 +44,7 @@ This work combines Claude Code features, functionality, and architectural patter
 
 --- ---------------------------------------------------------- ----
 
-# Claude Features integrated into OpenClaw: OpenClaw Improvement Specification (Derived from Claude Analysis)
+# OpenClaw Improvement Specification (Derived from Claude Analysis)
 
 ## Status
 Plan/specification only. **No implementation changes** included.
